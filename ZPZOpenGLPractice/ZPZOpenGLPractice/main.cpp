@@ -7,9 +7,16 @@
 //
 
 #include <iostream>
+#include "ZPZHelloWindow.hpp"
+
+void practiceCLanguage();
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    practiceCLanguage();
     return 0;
+}
+
+void practiceCLanguage() {
+    ZPZHelloWindow window;
+    window.showWindowType();
 }
