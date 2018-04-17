@@ -12,6 +12,8 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
+void keyboardCallBack(GLFWwindow * window, int key, int scancode, int action, int mode);
+
 ZPZHelloWindow::ZPZHelloWindow() {
     this -> windowType = 10;
 }
@@ -66,9 +68,36 @@ void ZPZHelloWindow::showWindow() {
     int width, height;
     glfwGetFramebufferSize(window, &width, &height);
     glViewport(0, 0, 400, 300);
+    glfwSetKeyCallback(window, keyboardCallBack);
     while (!glfwWindowShouldClose(window)) {  // 检查窗口是否被退出了，如果退出了，就跳出循环
         glfwPollEvents();  // 检查是否有触发的事件
+        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);  // 状态设置函数
+        glClear(GL_COLOR_BUFFER_BIT);   // 状态应用函数
         glfwSwapBuffers(window);  // 交换颜色缓冲
     }
     glfwTerminate();
+}
+/**
+ *! @brief The function signature for keyboard key callbacks.
+ *
+ *  This is the function signature for keyboard key callback functions.
+ *
+ *  @param[in] window The window that received the event.
+ *  @param[in] key The [keyboard key](@ref keys) that was pressed or released.
+ *  @param[in] scancode The system-specific scancode of the key.
+ *  @param[in] action `GLFW_PRESS`, `GLFW_RELEASE` or `GLFW_REPEAT`.
+ *  @param[in] mods Bit field describing which [modifier keys](@ref mods) were
+ *  held down.
+ *
+ *  @sa @ref input_key
+ *  @sa @ref glfwSetKeyCallback
+ *
+ *  @since Added in version 1.0.
+ *  @glfw3 Added window handle, scancode and modifier mask parameters.
+ *
+ *  @ingroup input
+ * typedef void (* GLFWkeyfun)(GLFWwindow*,int,int,int,int);
+ */
+void keyboardCallBack(GLFWwindow * window, int key, int scancode, int action, int mode) {
+    cout << key << endl;
 }
