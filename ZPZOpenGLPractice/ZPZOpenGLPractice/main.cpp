@@ -18,5 +18,6 @@ int main(int argc, const char * argv[]) {
 
 void practiceCLanguage() {
     ZPZHelloWindow window;
-    window.showWindowType();
+//    window.showWindowType();
+    window.showWindow();
 }
