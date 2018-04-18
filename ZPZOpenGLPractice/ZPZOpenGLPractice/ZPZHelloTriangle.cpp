@@ -224,5 +224,5 @@ void ZPZHelloTriangle::showTwoTriangle() {
         // 交换缓冲
         glfwSwapBuffers(window);
     }
-    
+    glfwTerminate();
 }

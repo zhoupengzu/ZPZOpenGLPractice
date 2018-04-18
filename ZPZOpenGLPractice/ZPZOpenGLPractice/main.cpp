@@ -9,14 +9,21 @@
 #include <iostream>
 #include "ZPZHelloWindow.hpp"
 #include "ZPZHelloTriangle.hpp"
+#include "ZPZShaderPractice.hpp"
 
 void practiceCLanguage();
 void practiceTriangle();
+void shaderPractice();
 
 int main(int argc, const char * argv[]) {
 //    practiceCLanguage();
-    practiceTriangle();
+    shaderPractice();
     return 0;
+}
+
+void shaderPractice() {
+    ZPZShaderPractice shader;
+    shader.useBaseShader();
 }
 
 void practiceCLanguage() {

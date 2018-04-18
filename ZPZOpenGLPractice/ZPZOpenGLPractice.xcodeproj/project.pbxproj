@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1CB380208740BB006276F5 /* ZPZShaderPractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB1CB37E208740BB006276F5 /* ZPZShaderPractice.cpp */; };
 		DB6845522085C9B300C50530 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB6845512085C9B300C50530 /* main.cpp */; };
 		DB68455A2085C9D900C50530 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6845592085C9D900C50530 /* OpenGL.framework */; };
 		DB68455D2085C9F400C50530 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB68455B2085C9F400C50530 /* libGLEW.2.1.0.dylib */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB1CB37E208740BB006276F5 /* ZPZShaderPractice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZPZShaderPractice.cpp; sourceTree = "<group>"; };
+		DB1CB37F208740BB006276F5 /* ZPZShaderPractice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ZPZShaderPractice.hpp; sourceTree = "<group>"; };
 		DB68454E2085C9B300C50530 /* ZPZOpenGLPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZPZOpenGLPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6845512085C9B300C50530 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DB6845592085C9D900C50530 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -78,6 +81,8 @@
 				DB6845602085CA6300C50530 /* ZPZHelloWindow.hpp */,
 				DB6845622085F5B700C50530 /* ZPZHelloTriangle.cpp */,
 				DB6845632085F5B700C50530 /* ZPZHelloTriangle.hpp */,
+				DB1CB37E208740BB006276F5 /* ZPZShaderPractice.cpp */,
+				DB1CB37F208740BB006276F5 /* ZPZShaderPractice.hpp */,
 			);
 			path = ZPZOpenGLPractice;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1CB380208740BB006276F5 /* ZPZShaderPractice.cpp in Sources */,
 				DB6845522085C9B300C50530 /* main.cpp in Sources */,
 				DB6845612085CA6300C50530 /* ZPZHelloWindow.cpp in Sources */,
 				DB6845642085F5B700C50530 /* ZPZHelloTriangle.cpp in Sources */,
