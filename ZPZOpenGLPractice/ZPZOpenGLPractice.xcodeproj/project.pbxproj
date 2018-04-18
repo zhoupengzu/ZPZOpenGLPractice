@@ -12,6 +12,7 @@
 		DB68455D2085C9F400C50530 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB68455B2085C9F400C50530 /* libGLEW.2.1.0.dylib */; };
 		DB68455E2085C9F400C50530 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB68455C2085C9F400C50530 /* libglfw.3.3.dylib */; };
 		DB6845612085CA6300C50530 /* ZPZHelloWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB68455F2085CA6300C50530 /* ZPZHelloWindow.cpp */; };
+		DB6845642085F5B700C50530 /* ZPZHelloTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB6845622085F5B700C50530 /* ZPZHelloTriangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		DB68455C2085C9F400C50530 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../usr/local/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 		DB68455F2085CA6300C50530 /* ZPZHelloWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZPZHelloWindow.cpp; sourceTree = "<group>"; };
 		DB6845602085CA6300C50530 /* ZPZHelloWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ZPZHelloWindow.hpp; sourceTree = "<group>"; };
+		DB6845622085F5B700C50530 /* ZPZHelloTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZPZHelloTriangle.cpp; sourceTree = "<group>"; };
+		DB6845632085F5B700C50530 /* ZPZHelloTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ZPZHelloTriangle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				DB6845512085C9B300C50530 /* main.cpp */,
 				DB68455F2085CA6300C50530 /* ZPZHelloWindow.cpp */,
 				DB6845602085CA6300C50530 /* ZPZHelloWindow.hpp */,
+				DB6845622085F5B700C50530 /* ZPZHelloTriangle.cpp */,
+				DB6845632085F5B700C50530 /* ZPZHelloTriangle.hpp */,
 			);
 			path = ZPZOpenGLPractice;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			files = (
 				DB6845522085C9B300C50530 /* main.cpp in Sources */,
 				DB6845612085CA6300C50530 /* ZPZHelloWindow.cpp in Sources */,
+				DB6845642085F5B700C50530 /* ZPZHelloTriangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

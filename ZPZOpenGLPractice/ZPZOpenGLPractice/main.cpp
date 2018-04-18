@@ -8,11 +8,14 @@
 
 #include <iostream>
 #include "ZPZHelloWindow.hpp"
+#include "ZPZHelloTriangle.hpp"
 
 void practiceCLanguage();
+void practiceTriangle();
 
 int main(int argc, const char * argv[]) {
-    practiceCLanguage();
+//    practiceCLanguage();
+    practiceTriangle();
     return 0;
 }
 
@@ -20,4 +23,9 @@ void practiceCLanguage() {
     ZPZHelloWindow window;
 //    window.showWindowType();
     window.showWindow();
+}
+
+void practiceTriangle() {
+    ZPZHelloTriangle triangle;
+    triangle.showTwoTriangle();
 }
