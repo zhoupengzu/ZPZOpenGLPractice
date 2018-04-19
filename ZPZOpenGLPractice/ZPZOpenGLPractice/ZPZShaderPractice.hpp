@@ -14,6 +14,8 @@
 class ZPZShaderPractice {
 public:
     void useBaseShader();
+    void useUniform();
+    void useBaseShaderForColor();
 };
 
 #endif /* ZPZShaderPractice_hpp */

@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
 
 void shaderPractice() {
     ZPZShaderPractice shader;
-    shader.useBaseShader();
+    shader.useBaseShaderForColor();
 }
 
 void practiceCLanguage() {
