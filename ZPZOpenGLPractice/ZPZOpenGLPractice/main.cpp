@@ -10,15 +10,21 @@
 #include "ZPZHelloWindow.hpp"
 #include "ZPZHelloTriangle.hpp"
 #include "ZPZShaderPractice.hpp"
+#include "ZPZTexturePractice.hpp"
 
 void practiceCLanguage();
 void practiceTriangle();
 void shaderPractice();
+void textturePractice();
 
 int main(int argc, const char * argv[]) {
-//    practiceCLanguage();
-    shaderPractice();
+    textturePractice();
     return 0;
+}
+
+void textturePractice() {
+    ZPZTexturePractice texture = ZPZTexturePractice("Textture");
+    texture.textture();
 }
 
 void shaderPractice() {

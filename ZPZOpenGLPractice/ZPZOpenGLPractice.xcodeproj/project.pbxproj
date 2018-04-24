@@ -14,6 +14,9 @@
 		DB68455E2085C9F400C50530 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB68455C2085C9F400C50530 /* libglfw.3.3.dylib */; };
 		DB6845612085CA6300C50530 /* ZPZHelloWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB68455F2085CA6300C50530 /* ZPZHelloWindow.cpp */; };
 		DB6845642085F5B700C50530 /* ZPZHelloTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB6845622085F5B700C50530 /* ZPZHelloTriangle.cpp */; };
+		DBD3EEB4208DAA0E008029E2 /* ZPZTexturePractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBD3EEB2208DAA0E008029E2 /* ZPZTexturePractice.cpp */; };
+		DBD3EED6208DE918008029E2 /* libSOIL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD3EECF208DD7DF008029E2 /* libSOIL.a */; };
+		DBD3EED7208DEAEF008029E2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD3EED3208DE5CE008029E2 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +43,11 @@
 		DB6845602085CA6300C50530 /* ZPZHelloWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ZPZHelloWindow.hpp; sourceTree = "<group>"; };
 		DB6845622085F5B700C50530 /* ZPZHelloTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZPZHelloTriangle.cpp; sourceTree = "<group>"; };
 		DB6845632085F5B700C50530 /* ZPZHelloTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ZPZHelloTriangle.hpp; sourceTree = "<group>"; };
+		DBD3EEB2208DAA0E008029E2 /* ZPZTexturePractice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZPZTexturePractice.cpp; sourceTree = "<group>"; };
+		DBD3EEB3208DAA0E008029E2 /* ZPZTexturePractice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ZPZTexturePractice.hpp; sourceTree = "<group>"; };
+		DBD3EEB5208DCAB0008029E2 /* container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = container.jpg; sourceTree = "<group>"; };
+		DBD3EECF208DD7DF008029E2 /* libSOIL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSOIL.a; path = ../../../../../usr/local/lib/libSOIL.a; sourceTree = "<group>"; };
+		DBD3EED3208DE5CE008029E2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD3EED7208DEAEF008029E2 /* CoreFoundation.framework in Frameworks */,
+				DBD3EED6208DE918008029E2 /* libSOIL.a in Frameworks */,
 				DB68455D2085C9F400C50530 /* libGLEW.2.1.0.dylib in Frameworks */,
 				DB68455E2085C9F400C50530 /* libglfw.3.3.dylib in Frameworks */,
 				DB68455A2085C9D900C50530 /* OpenGL.framework in Frameworks */,
@@ -76,6 +86,7 @@
 		DB6845502085C9B300C50530 /* ZPZOpenGLPractice */ = {
 			isa = PBXGroup;
 			children = (
+				DBD3EEB5208DCAB0008029E2 /* container.jpg */,
 				DB6845512085C9B300C50530 /* main.cpp */,
 				DB68455F2085CA6300C50530 /* ZPZHelloWindow.cpp */,
 				DB6845602085CA6300C50530 /* ZPZHelloWindow.hpp */,
@@ -83,6 +94,8 @@
 				DB6845632085F5B700C50530 /* ZPZHelloTriangle.hpp */,
 				DB1CB37E208740BB006276F5 /* ZPZShaderPractice.cpp */,
 				DB1CB37F208740BB006276F5 /* ZPZShaderPractice.hpp */,
+				DBD3EEB2208DAA0E008029E2 /* ZPZTexturePractice.cpp */,
+				DBD3EEB3208DAA0E008029E2 /* ZPZTexturePractice.hpp */,
 			);
 			path = ZPZOpenGLPractice;
 			sourceTree = "<group>";
@@ -90,6 +103,8 @@
 		DB6845582085C9D800C50530 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DBD3EED3208DE5CE008029E2 /* CoreFoundation.framework */,
+				DBD3EECF208DD7DF008029E2 /* libSOIL.a */,
 				DB68455B2085C9F400C50530 /* libGLEW.2.1.0.dylib */,
 				DB68455C2085C9F400C50530 /* libglfw.3.3.dylib */,
 				DB6845592085C9D900C50530 /* OpenGL.framework */,
@@ -156,6 +171,7 @@
 				DB1CB380208740BB006276F5 /* ZPZShaderPractice.cpp in Sources */,
 				DB6845522085C9B300C50530 /* main.cpp in Sources */,
 				DB6845612085CA6300C50530 /* ZPZHelloWindow.cpp in Sources */,
+				DBD3EEB4208DAA0E008029E2 /* ZPZTexturePractice.cpp in Sources */,
 				DB6845642085F5B700C50530 /* ZPZHelloTriangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +234,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -268,7 +285,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
@@ -280,7 +299,10 @@
 				DEVELOPMENT_TEAM = 9XTQKWEYF3;
 				HEADER_SEARCH_PATHS = "$(OpenGL_Header)";
 				LIBRARY_SEARCH_PATHS = "$(OpenGL_Lib)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -292,7 +314,10 @@
 				DEVELOPMENT_TEAM = 9XTQKWEYF3;
 				HEADER_SEARCH_PATHS = "$(OpenGL_Header)";
 				LIBRARY_SEARCH_PATHS = "$(OpenGL_Lib)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
